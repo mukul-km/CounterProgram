@@ -5,8 +5,8 @@ body{
 #myH1{
     display: block;
     text-align: center;
+    font-size: 4em;
 }
-
 #countLabel{
     display: block;
     text-align: center;
