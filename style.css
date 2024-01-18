@@ -2,6 +2,11 @@ body{
     font-family: Helvetica;
 }
 
+#myH1{
+    display: block;
+    text-align: center;
+}
+
 #countLabel{
     display: block;
     text-align: center;
