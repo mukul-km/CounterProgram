@@ -14,21 +14,39 @@ body{
 }
 
 #btnContainer{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .buttons{
     padding: 10px 20px;
     font-size: 1.5em;
     color: white;
-    background-color: hsl(214, 100%, 74%);
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.25s;
 
 }
 
-.buttons:hover{
-    background-color: hsl(214, 100%, 30%);
+#decreaseBtn{
+    background-color: #d4403a;
+}
+#decreaseBtn:hover{
+    background-color: #a72925;
 }
 
+#resetBtn{
+    background-color: #20809d;
+}
+#resetBtn:hover{
+    background-color: #196076;
+}
+
+#increaseBtn{
+    background-color: #3a833a;
+}
+#increaseBtn:hover{
+    background-color: #2c632c;
+}
