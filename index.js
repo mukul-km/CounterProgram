@@ -1,4 +1,4 @@
-// COUNTER PROGRAM 
+// COUNTER PROGRAM
 
 const decreaseBtn = document.getElementById("decreaseBtn");
 const resetBtn = document.getElementById("resetBtn");
@@ -6,17 +6,30 @@ const increaseBtn = document.getElementById("increaseBtn");
 const countLabel = document.getElementById("countLabel");
 let count = 0;
 
-increaseBtn.onclick = function(){
-    count++;
-    countLabel.textContent = count;
+function setColor(count) {
+  if (count === 0) {
+    countLabel.style.color = "hsl(220, 100%, 60%)";
+  } else if (count > 0) {
+    countLabel.style.color = "green";
+  } else {
+    countLabel.style.color = "red";
+  }
 }
 
-decreaseBtn.onclick = function(){
-    count--;
-    countLabel.textContent = count;
-}
+increaseBtn.addEventListener("click", () => {
+  count++;
+  countLabel.textContent = count;
+  setColor(count);
+});
 
-resetBtn.onclick = function(){
-    count = 0;
-    countLabel.textContent = count;
-}
+decreaseBtn.addEventListener("click", () => {
+  count--;
+  countLabel.textContent = count;
+  setColor(count);
+});
+
+resetBtn.addEventListener("click", () => {
+  count = 0;
+  countLabel.textContent = count;
+  setColor(count);
+});
