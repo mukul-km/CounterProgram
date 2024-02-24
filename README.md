@@ -14,7 +14,7 @@ This is a simple responsive counter program
 
 ### Screenshot
 
-![](./img/screenshot.png)
+![ScreenShot](./img/screenshot.png)
 
 ### Links
 
