@@ -18,8 +18,8 @@ This is a simple responsive counter program
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/mukul-km/counterProgram)
-- Live Site URL: [Add live site URL here](https://mukul-km.github.io/counterProgram/)
+- Solution URL: [https://github.com/mukul-km/counterProgram](https://github.com/mukul-km/counterProgram)
+- Live Site URL: [https://mukul-km.github.io/counterProgram/](https://mukul-km.github.io/counterProgram/)
 
 ## My process
 
